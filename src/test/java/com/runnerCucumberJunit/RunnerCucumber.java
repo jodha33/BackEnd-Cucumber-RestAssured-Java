@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = { "html:target/cucumberHtmlReport", "json:target/cucumber-report.json" }, 
 		features = "features", 
 		glue = { "com.steps" },
-		tags = {"@run"}
+		tags = {"@temp"}
 		)
 public class RunnerCucumber {
 

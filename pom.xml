@@ -4,7 +4,19 @@
 	<groupId>com.correios</groupId>
 	<artifactId>BackEndCucumber</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>7</source>
+					<target>7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<cumcumber.version>1.2.5</cumcumber.version>
@@ -69,6 +81,15 @@
 			<artifactId>json-schema-validator</artifactId>
 			<version>${restassured.version}</version>
 		</dependency>
-		
+
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<version>1.1.4</version>
+		</dependency>
+
+
 	</dependencies>
 </project>
