@@ -1,0 +1,12 @@
+{
+  "type": "core",
+  "quantity": 0,
+  "manufaturer": "string2",
+  "model": "string2",
+  "capacity": 0,
+  "metadata": {
+    "additionalProp1": "string2",
+    "additionalProp2": "string2",
+    "additionalProp3": "string2"
+  }
+}
