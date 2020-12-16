@@ -14,7 +14,7 @@ Scenario: GET: Test the Demo app
   Then I hit the Get resource API
   |GroupName|ResourceName|
   |ABC  |A               |
-  |PQR  |B               |
+  |PQR  |C               |
   Then I hit the Get Resource List API and verify the Data
   |GroupName|
   |ABC  |
